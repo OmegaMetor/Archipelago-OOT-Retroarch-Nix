@@ -1,0 +1,2 @@
+* `nix run . --` to run the application.
+* `nix build .#default.passthru.fetch-deps && ./result` to collect the [NuGet] dependencies of the project into a [lockfile](./nix/deps.nix). (You only have to run this after you change the NuGet dependencies of the .NET projects.)
