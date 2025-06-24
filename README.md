@@ -1,3 +1,5 @@
+Many thanks to [JoshuaEagles](https://github.com/JoshuaEagles) for actually creating the client and modified core that this wraps.
+
 You need to open 2 shells
 
 In one, run `nix run .#retroarch`
