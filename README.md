@@ -1,5 +1,7 @@
 Many thanks to [JoshuaEagles](https://github.com/JoshuaEagles) for actually creating the client and modified core that this wraps.
 
+You can find the client's source at https://github.com/JoshuaEagles/Archipelago.RetroArchClient
+
 You need to open 2 shells
 
 In one, run `nix run .#retroarch`
