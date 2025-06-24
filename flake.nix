@@ -13,16 +13,21 @@
     let
       pkgs = import nixpkgs {
         inherit system;
-        config = {
-          retroarch.withCores = false; # explicitly disable default cores
-        };
       };
 
       mupen64plus = pkgs.libretro.mupen64plus.overrideAttrs (old: {
         src = mupen64plus-core-custom;
       });
 
-      myRetroarch = pkgs.retroarch.withCores (cores: [ mupen64plus ]);
+     myRetroarch = pkgs.wrapRetroArch {
+    cores = [ pkgs.libretro.mupen64plus ];
+    settings = {
+      network_cmd_enable = "true";
+      # other config values here
+    };
+  };
+        
+        #pkgs.retroarch.withCores (cores: [ mupen64plus ]);
 
     in
     {
