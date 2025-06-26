@@ -20,7 +20,7 @@
       });
 
      myRetroarch = pkgs.wrapRetroArch {
-    cores = [ pkgs.libretro.mupen64plus ];
+    cores = [ mupen64plus ];
     settings = {
       network_cmd_enable = "true";
       # other config values here
