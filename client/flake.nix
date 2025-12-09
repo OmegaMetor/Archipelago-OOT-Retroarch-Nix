@@ -27,7 +27,7 @@
             pname = "Archipelago.RetroArchClient";
             version = version;
             src = client;
-            nugetDeps = ./nix/deps.nix; # run `nix build .#default.passthru.fetch-deps && ./result` and put the result here
+            nugetDeps = ./deps.json; # run `nix build .#default.passthru.fetch-deps && ./result` and put the result here
             doCheck = true;
           };
         };
