@@ -3,11 +3,11 @@
     "client": {
       "flake": false,
       "locked": {
-        "lastModified": 1740373098,
-        "narHash": "sha256-BsLLhBiPki+6lRPFYaC0SCyplmvnVvH9yWxEgkM5rSA=",
+        "lastModified": 1757859370,
+        "narHash": "sha256-XguinXEvbvJpURHG+xkGqIZCVtyzNc7Y2BSoenpXdL4=",
         "owner": "JoshuaEagles",
         "repo": "Archipelago.RetroArchClient",
-        "rev": "646ca964e968443cb9f6ce40eeda03f596be96de",
+        "rev": "cebfe7e3f7693648e366fe3cefef6e1ace63af2b",
         "type": "github"
       },
       "original": {
@@ -21,11 +21,11 @@
         "systems": "systems"
       },
       "locked": {
-        "lastModified": 1710146030,
-        "narHash": "sha256-SZ5L6eA7HJ/nmkzGG7/ISclqe6oZdOZTNoesiInkXPQ=",
+        "lastModified": 1731533236,
+        "narHash": "sha256-l0KFg5HjrsfsO/JpG+r7fRrqm12kzFHyUHqHCVpMMbI=",
         "owner": "numtide",
         "repo": "flake-utils",
-        "rev": "b1d9ab70662946ef0850d488da1c9019f3a9752a",
+        "rev": "11707dc2f618dd54ca8739b309ec4fc024de578b",
         "type": "github"
       },
       "original": {
@@ -36,11 +36,11 @@
     },
     "nixpkgs": {
       "locked": {
-        "lastModified": 1716948383,
-        "narHash": "sha256-SzDKxseEcHR5KzPXLwsemyTR/kaM9whxeiJohbL04rs=",
+        "lastModified": 1765186076,
+        "narHash": "sha256-hM20uyap1a0M9d344I692r+ik4gTMyj60cQWO+hAYP8=",
         "owner": "NixOS",
         "repo": "nixpkgs",
-        "rev": "ad57eef4ef0659193044870c731987a6df5cf56b",
+        "rev": "addf7cf5f383a3101ecfba091b98d0a1263dc9b8",
         "type": "github"
       },
       "original": {
